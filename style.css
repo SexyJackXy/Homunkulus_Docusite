@@ -17,7 +17,7 @@
 }
 
 .sub-headline{
-  color: #bf7f19;
+  color: #424242;
   margin: 0;
   text-align: center;
   padding: 0.25em;
@@ -110,36 +110,46 @@ main{
 
 /* CSS für den Main, Contnetn usw.*/
 .content{
-  text-align: justify;
+  /*text-align: justify;*/
   background-color: #ecf0f1;
   justify-content: center;
   width: 60%;
   height: fit-content;
   margin-left: auto;
   margin-right:auto;
-  box-shadow: 0em 0.5em 1em 0em rgba(0,0,0,0.2);
 }
 
-.multicontent{
-  display: flex;
-  text-align: justify;
+.sub-content{
+  display: block;
+  /*text-align: justify;*/
   width: 85%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.mini-content{
-  width: 50%;
-  display: block;
+.sub-sub-content{
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.side-side{
+  width: 20%;
+  background-color:#424242;
+}
+
+.side-side a{
+  margin: 0.25em;
 }
 
 .pic{
-  height: auto;
-  width: 90%;
+  display: block;
+  width: 20%;
   padding: 1em;
-  text-align: center;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #features{
@@ -150,4 +160,5 @@ main{
 
 #features a{
   margin-top: 0.5em;
+  color: #424242  ;
 }
