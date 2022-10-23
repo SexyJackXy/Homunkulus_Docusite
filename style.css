@@ -133,6 +133,7 @@ main{
   display: flex;
   justify-content:space-evenly ;
   grid-gap: 1em;
+  text-align: justify;
 }
 
 .side-side{
