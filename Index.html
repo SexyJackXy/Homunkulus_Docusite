@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 		<link rel="icon" type="image/png" href="pictures/favicon.png">   
 		<link rel="icon" href="picutres/favicon.ico" type="image/x-icon">
+		<script src="script.js"></script> 
 	</head>
 	<header>
 		<div class="nav">        
@@ -17,60 +18,71 @@
 	<body>
 		<main>
 			<div class="content">
-				<h1>Version 1.0</h1>
-				<h1 class="sub-headline" style="color:rgb(253,169,32);">Eine Backup-Lösung für einen Umfassenden Schutz</h1>
-				<div class="sub-content">
-					<a class="text">Datenverluste können jederzeit durch Computerfehlfunktionen, Viren oder Maleware verursacht werden. Mithilfe von Homunkulus ist es ein Kinderspiel, ein komplettes Backup Einer Festplatte oder ein Teilbackup ihrer wichtigsten Dateien zu erstellen. Stellen Sie sicher, dass Ihre Daten zu jeder Zeit geschützt sind.</a>
-					<div class="sub-sub-content">
-						<div clas="side-side">
-							<img src="picutres/harddrive.png" class="pic">
-							<h3 class="sub-headline">Sicherung und Wiederherstellung von Festplatten</h3>
-							<a class="text">Sichern Sie alle Daten und Einstellungen einer Partition oder aller Partitionen (Festplatten), um im Falle einer Datenbeschädigung absolute Sicherheit zu haben.</a>
-						</div>
-						<div clas="side-side">
-							<img src="picutres/windows.png" class="pic">
-							<h3 class="sub-headline">Systemsicherung und Wiederherstellung</h3>
-							<a class="text">Sichern Sie Systeme, Boot-Partitionen und Programmdateien, um Ihr System einfach, effizient und sicher wiederherstellen zu können.</a>
-						</div>
-						<div clas="side-side">
-							<img src="picutres/folder.png" class="pic">
-							<h3 class="sub-headline">Sicherung und Wiederherstellung von Dateien</h3>
-							<a class="text">Sichern Sie Dateien auf separaten Partitionen auf lokalen Laufwerken oder auf externen Speichermedien, um einen umfassenden Schutz zu gewährleisten.</a>
-						</div>
-					</div>
-				</div>
-				<h1 class="sub-headline" style="color:rgb(253,169,32);">Einfache und Benutzerfreundliche Oberfläche</h1>	
-				<div class="sub-content">
-					<a class="text">Durch unser Simples und einfaches Design ist die Bedienung von Homunkulus einfach und selbstverständlich. Es gibt keine Verschalteten Menus oder Komplizierten Tastenkombinationen. Bei Homunkulus tut jeder Button genau das, was auf ihn steht </a>
+				<div class="spacer"></div>
+				<!--Version 1.0 Dropdown-->
+				<details class="v1" style="cursor:pointer;user-select:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;">
+					<summary><h2 class="sub-headline" style="display:inline;">Version 1.0</h2></summary>
+						<h1 class="sub-headline" style="color:rgb(253,169,32);">Eine Backup-Lösung für einen Umfassenden Schutz</h1>
+						<div class="sub-content">
+						<a class="text">Datenverluste können jederzeit durch Computerfehlfunktionen, Viren oder Maleware verursacht werden. Mithilfe von Homunkulus ist es ein Kinderspiel, ein komplettes Backup Einer Festplatte oder ein Teilbackup ihrer wichtigsten Dateien zu erstellen. Stellen Sie sicher, dass Ihre Daten zu jeder Zeit geschützt sind.</a>
 						<div class="sub-sub-content">
-						<div clas="side-side">
-							<h3 class="sub-headline">Backup</h3>
-							<a class="text">
-								Auf der Backup Seite können sie ihre Dateien, welche sie kopieren möchten, einfügen dies geschieht über das Obere Eingabe Feld. Durch das Betätigen des Add Path Button wird diese Eingabe bestätigt. Die eingebenden Pfade werden ihnen dann unten in der großen Anzeige angezeigt. Möchten sie nun ihre Eingabe rückgängig machen, so klicken sie auf den [Platzhalter] Button. Wenn sie keine Lust habe, die Pfade per Hand einzufügen, können sie auch .txt Dateien hochladen (Hierbei ist zu beachten das ALLES, was in dieser Datei steht, auch ausgelesen wird). Sind sie so weit fertig, können sie durch das drücken der großen gelben Buttons ganz unten das Backup Starten. Dieser Prozess kann ein stückle dauern. Wenn sie alles danach leeren wollen, können sie mit dem Clear Button alles wider Rückgängig machen.
-							</a>
+							<div clas="side-side">
+								<img src="picutres/harddrive.png" class="pic">
+								<h3 class="sub-headline">Sicherung und Wiederherstellung von Festplatten</h3>
+								<a class="text">Sichern Sie alle Daten und Einstellungen einer Partition oder aller Partitionen (Festplatten), um im Falle einer Datenbeschädigung absolute Sicherheit zu haben.</a>
+							</div>
+							<div clas="side-side">
+								<img src="picutres/windows.png" class="pic">
+								<h3 class="sub-headline">Systemsicherung und Wiederherstellung</h3>
+								<a class="text">Sichern Sie Systeme, Boot-Partitionen und Programmdateien, um Ihr System einfach, effizient und sicher wiederherstellen zu können.</a>
+							</div>
+							<div clas="side-side">
+								<img src="picutres/folder.png" class="pic">
+								<h3 class="sub-headline">Sicherung und Wiederherstellung von Dateien</h3>
+								<a class="text">Sichern Sie Dateien auf separaten Partitionen auf lokalen Laufwerken oder auf externen Speichermedien, um einen umfassenden Schutz zu gewährleisten.</a>
+							</div>
 						</div>
-						<div clas="side-side">
-							<h3 class="sub-headline">Import</h3>
-							<a class="text">
-								Unter dem Import Button finden sie ein übersichtliches Interface welches aus einer Großen Textbox und einem Button besteht. 
-								Durch den Klick auf den Button wird ein Explorer fenster geöffnet und sie können ganz bequem sich raussuchen von wo sie ihre daten Importieren möchten. 
-								Nach dem sie auf öffnen geklickt haben wird der Import automatisch ausgeführt
-							</a>
 						</div>
-						<div clas="side-side">
-							<h3 class="sub-headline">Saves</h3>
-							<a class="text">
-								Auf der Savesseite können sie. Mit hilfe eines Explorers Fenster schnell und einfach ihre gespeicherten Backuppläne ansehen. Die Bedingung dieses Explorer Fenster wird über drei einfache Buttons geteilt. Hier bei ist der Der Text der Buttons selbst erklären. Der Load File Button lädt die ausgewählte File. Der Open Selected öffnet diese und der Reload Button tut die ganze Seite neu laden.
-							</a>
+						<h1 class="sub-headline" style="color:rgb(253,169,32);">Einfache und Benutzerfreundliche Oberfläche</h1>	
+						<div class="sub-content">
+						<a class="text">Durch unser Simples und einfaches Design ist die Bedienung von Homunkulus einfach und selbstverständlich. Es gibt keine Verschalteten Menus oder Komplizierten Tastenkombinationen. Bei Homunkulus tut jeder Button genau das, was auf ihn steht </a>
+							<div class="sub-sub-content">
+							<div clas="side-side">
+								<h3 class="sub-headline">Backup</h3>
+								<a class="text">
+									Auf der Backup Seite können sie ihre Dateien, welche sie kopieren möchten, einfügen dies geschieht über das Obere Eingabe Feld. Durch das Betätigen des Add Path Button wird diese Eingabe bestätigt. Die eingebenden Pfade werden ihnen dann unten in der großen Anzeige angezeigt. Möchten sie nun ihre Eingabe rückgängig machen, so klicken sie auf den [Platzhalter] Button. Wenn sie keine Lust habe, die Pfade per Hand einzufügen, können sie auch .txt Dateien hochladen (Hierbei ist zu beachten das ALLES, was in dieser Datei steht, auch ausgelesen wird). Sind sie so weit fertig, können sie durch das drücken der großen gelben Buttons ganz unten das Backup Starten. Dieser Prozess kann ein stückle dauern. Wenn sie alles danach leeren wollen, können sie mit dem Clear Button alles wider Rückgängig machen.
+								</a>
+							</div>
+							<div clas="side-side">
+								<h3 class="sub-headline">Import</h3>
+								<a class="text">
+									Unter dem Import Button finden sie ein übersichtliches Interface welches aus einer Großen Textbox und einem Button besteht. 
+									Durch den Klick auf den Button wird ein Explorer fenster geöffnet und sie können ganz bequem sich raussuchen von wo sie ihre daten Importieren möchten. 
+									Nach dem sie auf öffnen geklickt haben wird der Import automatisch ausgeführt
+								</a>
+							</div>
+							<div clas="side-side">
+								<h3 class="sub-headline">Saves</h3>
+								<a class="text">
+									Auf der Savesseite können sie. Mit hilfe eines Explorers Fenster schnell und einfach ihre gespeicherten Backuppläne ansehen. Die Bedingung dieses Explorer Fenster wird über drei einfache Buttons geteilt. Hier bei ist der Der Text der Buttons selbst erklären. Der Load File Button lädt die ausgewählte File. Der Open Selected öffnet diese und der Reload Button tut die ganze Seite neu laden.
+								</a>
+							</div>
+							<div clas="side-side">
+								<h3 class="sub-headline">History</h3>
+								<a class="text">
+									Die History Seite ist Relative schnell und Simpel erklärt, hier können sie ihre Statistiken sehen. Dieser wären zum Beispiel das Datum, wann das letzte Backup durchgeführt wurde. Oder wie lange das Backup gedauert hat. Das wichtigste ist aber der Name und der Pfad, wo das Backup gespeichert wurde
+								</a>
+							</div>
 						</div>
-						<div clas="side-side">
-							<h3 class="sub-headline">History</h3>
-							<a class="text">
-								Die History Seite ist Relative schnell und Simpel erklärt, hier können sie ihre Statistiken sehen. Dieser wären zum Beispiel das Datum, wann das letzte Backup durchgeführt wurde. Oder wie lange das Backup gedauert hat. Das wichtigste ist aber der Name und der Pfad, wo das Backup gespeichert wurde
-							</a>
 						</div>
-					</div>
-				</div>
+				</details>
+				<div class="spacer"></div>
+				<!--Version 2.0 Dropdown-->
+				<details style="cursor:pointer;user-select:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;">
+					<summary><h2 class="sub-headline" style="display:inline;">Version 2.0</h2></summary>
+					<H1 style="font-family: sans-serif,Helvetica; color: rgb(81,10,50);;margin: 0;font-size: 5ch;font-weight: 600;text-align: center;padding: 0.125em;">WORK IN PROGRESS ...</H1>
+				</details>
+				<div class="spacer"></div>
 			</div>
 		</main>
 	</body>
