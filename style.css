@@ -1,9 +1,9 @@
-/*CSS für Gobale anwendung*/
+
 :root{
-  font-family: 'Roboto',sans-serif,Helvetica; /* Dekleration der Font (Schrift)*/ 
-  font-size: 2ch;                             /* Dekleration der Gräße der Font*/
-  display: grid;                              /* Die Art wie der Content Dargestellt werden soll*/
-  color: #c0d9df;                           /* Farbe der Schrift*/
+  font-family: 'Roboto',sans-serif,Helvetica; 
+  font-size: 2ch;                             
+  display: grid;                             
+  color: #c0d9df;                           
 }
 
 .headline{
@@ -11,9 +11,9 @@
   color: #ecf0f1;
   margin: 0;                
   font-size: 5ch;     
-  font-weight: 600;               /* Abstand ausserhalb des Emelents*/
-  text-align: center;                           /* Ausrichtung des Textes*/
-  padding: 0.125em;                                 /* Abstand innerhalb des Elements*/
+  font-weight: 600;              
+  text-align: center;                           
+  padding: 0.125em;                                 
 }
 
 .sub-headline{
@@ -31,8 +31,8 @@
 
 .bold {
   padding-left: 0.25em;
-  text-decoration: none;                         /* Dekoration von einem Text*/                       
-  color: #fda920;
+  text-decoration: none;                                              
+  color: rgb(81,10,50);
   display: inline;
 }
 .spacer{
@@ -43,19 +43,19 @@
   display: block;
   font-size: 1.5ch;
   text-align: center;
-  width: 50%;                                     /* Breite eines Elements*/
+  width: 50%;                                     
   padding: 1em 0;
   margin: 1em auto;
-  border-radius: 2em;                             /* Radius der Ecken oder Rahmen eines Elements*/
-  border: none;                                   /* Darstellung einse Rahmens*/
-  background-color: #fda920;                    /* Hintergrundfrabe*/
+  border-radius: 2em;                             
+  border: none;                                   
+  background-color: #fda920;                    
   color: #ecf0f1;
-  transition: all 250ms ease;                     /* Zeitliche einstelung für die Änderungen*/
+  transition: all 250ms ease;                     
 }
 
 .btn:hover{
-  box-shadow: inset 0px 0px 50px 14px #0E372F;  /* Schatten innerhalb des Elements*/
-  box-shadow: 0em 0em 0.5em rgba(0, 0, 0, 0.9); /* Schatten auserhalb eines Objektes*/
+  box-shadow: inset 0px 0px 50px 14px #0E372F;  
+  box-shadow: 0em 0em 0.5em rgba(0, 0, 0, 0.9); 
 }
 
 
@@ -74,7 +74,7 @@ header{
   box-shadow:0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
 }
 main{
-  justify-content: center;                         /* Ausrictung der Elemnte mit dem Display:Flex*/
+  justify-content: center;                         
   padding-bottom: 2em;
   background-color: #dcddde;
 }
@@ -113,7 +113,6 @@ main{
 
 /* CSS für den Main, Contnetn usw.*/
 .content{
-  /*text-align: justify;*/
   background-color: #ecf0f1;
   justify-content: center;
   width: 60%;
@@ -124,7 +123,6 @@ main{
 
 .sub-content{
   display: block;
-  /*text-align: justify;*/
   width: 85%;
   justify-content: center;
   margin-left: auto;
